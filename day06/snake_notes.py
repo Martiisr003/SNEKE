@@ -190,10 +190,6 @@ while running:
     1. "Call pygame.draw.rect and passing in display_surface, GREEN, and head_coord for the head of the snake
     2. "Call pygame.draw.rct again pass in display_surface, RED, and apple_coord for the apple.  
     '''
-    for body in body_coords:
-        pygame.draw.rect(display_surface, DARKGREEN, body)
-    head_rect = pygame.draw.rect(display_surface, GREEN, head_coord)
-    apple_rect = pygame.draw.rect(display_surface, RED, apple_coord)
 
     # Update display and tick clock
     # TODO: Read below. 2 TODO's, require's explanation
